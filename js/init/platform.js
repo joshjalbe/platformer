@@ -35,7 +35,8 @@
         platform.create(0, game.world.height - 32, 3, 2);
 
         // ledges : notice one is -150 off the stage to the left //
-        platform.create(400, 460);
+        platform.create(300, 565);
+        platform.create(400, 465);
         platform.create(-150, 250);
         
         

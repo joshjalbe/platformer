@@ -5,7 +5,6 @@ $(document).ready(function () {
     let 
         opspark = window.opspark,
         game = opspark.createGame(create, update);
-
     function create() {
         game.opspark.init();
         
@@ -17,6 +16,9 @@ $(document).ready(function () {
         
         opspark.cannon.factory(game);
         opspark.cannon.init(game);
+        
+        opspark.door.factory(game);
+        opspark.door.init(game);
         
         opspark.player.init(game);
         

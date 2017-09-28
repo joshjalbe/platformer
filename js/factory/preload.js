@@ -5,6 +5,7 @@
     
     // TODO : Load config for url //
     opspark.preload = function (game) {
+        game.load.image('door', '../../asset/door.png');
         game.load.image('cannon', '../../asset/cannon.png');
         game.load.image('projectile', '../../asset/projectile.png');
         game.load.image('platform', '../../asset/platform.png');
