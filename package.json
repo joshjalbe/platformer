@@ -1,0 +1,31 @@
+{
+  "name": "platformer",
+  "version": "1.0.0",
+  "description": "A platformer game",
+  "main": "index.js",
+  "scripts": {
+    "test": "istanbul cover _mocha -- test/ -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OperationSpark/platformer.git"
+  },
+  "keywords": [
+    "phaser.js",
+    "platformer"
+  ],
+  "author": "jfraboni",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/OperationSpark/platformer/issues"
+  },
+  "homepage": "https://github.com/OperationSpark/platformer#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "i": "^0.3.5",
+    "istanbul": "^0.4.5",
+    "lodash": "^4.17.4",
+    "mocha": "^3.5.3",
+    "sinon": "^4.0.0"
+  }
+}
