@@ -16,6 +16,8 @@
     "sinon": "^3.3.0"
   },
   "scripts": {
+    "pretest": "npm install",
+    "posttest": "rm -rf ./test ./node_modules",
     "test": "_mocha -- test/ -R spec"
   },
   "repository": {
