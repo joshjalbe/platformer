@@ -18,7 +18,7 @@
   "scripts": {
     "pretest": "npm install",
     "posttest": "rm -rf ./test ./node_modules",
-    "test": "_mocha -- test/ -R spec"
+    "test": "_mocha -- test/"
   },
   "repository": {
     "type": "git",
