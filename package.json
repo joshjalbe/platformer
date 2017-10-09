@@ -1,19 +1,35 @@
 {
-  "name": "portfolio",
+  "name": "platformer",
+  "version": "1.0.0",
   "private": true,
-  "version": "0.0.0",
+  "description": "A plaformer game",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
   "dependencies": {
-    "body-parser": "^1.17.2",
-    "chai": "~3.5.0",
-    "concurrently": "^3.4.0",
-    "express": "^4.15.3",
-    "mocha": "^3.4.1",
-    "underscore": "^1.8.3",
-    "zombie": "^5.0.5"
+    "chai": "^4.1.2",
+    "i": "^0.3.6",
+    "lodash": "^4.17.4",
+    "mocha": "^4.0.0",
+    "sinon": "^3.3.0"
   },
   "scripts": {
-    "serve": "node ./test/server.js",
-    "test": "mocha ./test/wrapup.spec.js",
-    "start": "concurrently --kill-others \"npm run serve\" \"npm test\""
-  }
+    "test": "_mocha -- test/ -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OperationSpark/platformer.git"
+  },
+  "keywords": [
+    "platformer",
+    "phaser.js"
+  ],
+  "author": "jfraboni",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/OperationSpark/platformer/issues"
+  },
+  "homepage": "https://github.com/OperationSpark/platformer#readme"
 }
