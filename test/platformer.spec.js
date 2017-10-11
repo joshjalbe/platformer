@@ -41,8 +41,8 @@ describe('platformer', function() {
             // assert function called //
             expect(platform.create.called).to.be.true;
 
-            // assert function is called 3 times;
-            expect(platform.create.callCount).to.be.above(2);
+            // assert function is called 4 times;
+            expect(platform.create.callCount).to.be.above(3);
 
             var xLocs = {};
 
