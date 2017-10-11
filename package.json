@@ -17,8 +17,8 @@
   },
   "scripts": {
     "pretest": "npm install",
-    "posttest": "rm -rf ./test ./node_modules",
-    "test": "_mocha -- test/"
+    "test": "mocha ./test || :",
+    "posttest": "rm -rf ./test ./node_modules"
   },
   "repository": {
     "type": "git",
